@@ -45,15 +45,14 @@ export function SectionActivityCreate() {
           <h2>Minhas atividades</h2>
           <div className={styles.select_block}>
             <label htmlFor="select">
-              <p>
+              <button onClick={handleFilterActivities}>
                 Filtrar <FiFilter />
-              </p>
+              </button>
             </label>
             <select
               value={valueFilter}
               id="select"
               onChange={(event) => setValueFilter(event.target.value)}
-              onClick={handleFilterActivities}
             >
               <option value="">Nunhuma</option>
               <option value="PENDENTE">PENDENTE</option>

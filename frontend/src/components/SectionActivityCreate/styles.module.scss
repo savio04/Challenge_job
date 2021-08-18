@@ -22,12 +22,22 @@
 
       label {
         font-size: 1.5rem;
-        p{
+        button{
           margin-right: 1rem;
+          border: 0;
+          background: var(--blue);
+          color: var(--shapes);
+          padding: 0.7rem;
+          border-radius: 0.5rem;
+          font-size: 1.3rem;
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: filter 0.2s;
 
+          &:hover{
+            filter: brightness(0.8);
+          }
           svg{
             margin-left: 0.2rem;
           }

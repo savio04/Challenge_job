@@ -94,7 +94,7 @@ export function CardActivity({
                   acitvity.status === "CONCLUIDA"
                 }
               />
-              Macar como concluida
+              Marcar como concluida
             </label>
 
             <label htmlFor={`${acitvity._id}_canceled`}>
