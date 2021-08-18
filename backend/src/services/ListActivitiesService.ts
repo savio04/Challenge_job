@@ -1,4 +1,4 @@
-import { mongoose, acitivitySchema } from "../../database";
+import { mongoose, acitivitySchema } from "../database";
 
 interface IAcitvitiesDTO {
   name: string;

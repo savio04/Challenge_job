@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { DeleteActrivityService } from "../../services/Activity/DeleteAcitvityService";
+import { DeleteActrivityService } from "../services/DeleteAcitvityService";
 
 export async function DeleteActivityController(
   request: Request,

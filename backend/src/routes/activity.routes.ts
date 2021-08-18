@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { CreateActivityController } from "../Controllers/Activity/CreateActivityController";
-import { DeleteActivityController } from "../Controllers/Activity/DeleteAcitvityConroller";
-import { ListActivitiesController } from "../Controllers/Activity/ListActivitiesController";
-import { UpdateStatusActivityController } from "../Controllers/Activity/UpdateStatusActivityController";
+import { CreateActivityController } from "../Controllers/CreateActivityController";
+import { DeleteActivityController } from "../Controllers/DeleteAcitvityConroller";
+import { ListActivitiesController } from "../Controllers/ListActivitiesController";
+import { UpdateStatusActivityController } from "../Controllers/UpdateStatusActivityController";
 export const ActivityRoute = Router();
 
 ActivityRoute.post("/", CreateActivityController);

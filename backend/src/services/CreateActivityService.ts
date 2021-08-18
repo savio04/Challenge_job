@@ -1,5 +1,5 @@
-import { acitivitySchema, mongoose } from "../../database";
-import AppError from "../../errors/AppError";
+import { acitivitySchema, mongoose } from "../database";
+import AppError from "../errors/AppError";
 
 interface IRequest {
   name: string;

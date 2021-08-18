@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ListActivitiesService } from "../../services/Activity/ListActivitiesService";
+import { ListActivitiesService } from "../services/ListActivitiesService";
 
 export async function ListActivitiesController(
   request: Request,

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { UpdateStatusActivityService } from "../../services/Activity/UpdateStatusActivityService";
+import { UpdateStatusActivityService } from "../services/UpdateStatusActivityService";
 
 export async function UpdateStatusActivityController(
   request: Request,
