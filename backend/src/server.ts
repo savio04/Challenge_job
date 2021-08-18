@@ -5,7 +5,9 @@ import Routes from "./routes/routes";
 import cors from "cors";
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://challenge-e6sxs7mow-savio04.vercel.app/"
+}));
 app.use(express.json());
 app.use(Routes);
 
