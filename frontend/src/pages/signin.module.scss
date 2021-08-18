@@ -1,0 +1,60 @@
+.Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--shapes);
+    max-width: 800px;
+    padding: 6rem;
+    border-radius: 2rem;
+    width: 100%;
+  }
+
+  form.formContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+
+    label {
+      display: flex;
+      flex-direction: column;
+
+      & + label {
+        margin-top: 1rem;
+      }
+    }
+
+    button {
+      margin-top: 2rem;
+      height: 3.2rem;
+      border: 0;
+      border-radius: 1rem;
+      background: var(--blue);
+      color: var(--shapes);
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 2rem;
+
+      a {
+        color: var(--blue);
+        font-weight: bold;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    section {
+      padding: 3rem;
+    }
+  }
+}
