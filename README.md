@@ -4,7 +4,7 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)e [Docker](https://docs.docker.com/engine/install/ubuntu/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o [Docker](https://docs.docker.com/engine/install/ubuntu/).
 
 
 ### 🎲 Rodando o back end
@@ -30,9 +30,6 @@ $ npm run dev
 ### 🎲 Rodando o frontend
 
 ```bash
-# Clone este repositório
-$ git clone <https://github.com/savio04/Challenge_job.git>
-
 # Acesse a pasta do frontend no terminal
 $ cd Challenge_job/frontend
 
