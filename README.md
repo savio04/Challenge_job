@@ -13,7 +13,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone este repositório
 $ git clone <https://github.com/savio04/Challenge_job.git>
 
-# Acesse a pasta do frontend no terminal
+# Acesse a pasta do back end no terminal
 $ cd Challenge_job/backend
 
 # Instale as dependências
