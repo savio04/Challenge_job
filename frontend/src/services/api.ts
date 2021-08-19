@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-    baseURL:"https://challenge.amufumbar.com"
+    baseURL:"http://localhost:1212"
 })

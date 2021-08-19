@@ -4,9 +4,30 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)e [Docker](https://docs.docker.com/engine/install/ubuntu/).
 
-### 🎲 Rodando o projeto
+
+### 🎲 Rodando o back end
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/savio04/Challenge_job.git>
+
+# Acesse a pasta do frontend no terminal
+$ cd Challenge_job/backend
+
+# Instale as dependências
+$ npm install
+
+# Execute um container com o banco MongoDB
+$ sudo docker run --name mongodb -p 27017:27017 -d -t mongo
+ou
+$ docker run --name mongodb -p 27017:27017 -d -t mongo
+
+# Execute a aplicação
+$ npm run dev
+```
+### 🎲 Rodando o frontend
 
 ```bash
 # Clone este repositório
