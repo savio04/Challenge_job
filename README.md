@@ -6,7 +6,7 @@
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 
-### 🎲 Rodando o Frontend
+### 🎲 Rodando o projeto
 
 ```bash
 # Clone este repositório
@@ -25,4 +25,22 @@ $ npm run dev
 ```
 
 ### Testando a aplicação
-#### Caso queira testar a aplicação bastar acessar este link: https://challenge-e6sxs7mow-savio04.vercel.app/
+#### Caso queira testar a aplicação sem clonar este repositório basta acessar este link: https://challenge-e6sxs7mow-savio04.vercel.app/
+
+### Requisitos cumpridos
+
+- [X] Rodar na web
+- [X] Utilizar Typescript
+- [X] Possibilidade de criar registro de atividade com nome e descrição
+- [X] Possibilidade de alterar o status da atividade
+- [X] Listar atividades mostrando nome, data de criação, descrição e status
+- [X] Ordenar as atividades por data de criação
+- [X] Filtrar as atividades por status: ["CONCLUIDA", "PENDENTE", "CANCELADA"]
+- [X] Subir no github, ou bitbucket e afins...
+
+### Extras
+- [ ] design
+- [X] responsividade
+- [X] deploy
+- [ ] autenticação
+- [X] API própria
