@@ -43,7 +43,7 @@ $ npm run dev
 ```
 
 ### Testando a aplicação
-#### Caso queira testar a aplicação sem clonar este repositório basta acessar este link: https://challenge-e6sxs7mow-savio04.vercel.app/
+#### Caso queira testar a aplicação sem clonar este repositório basta acessar este link: https://frontend-savio04.vercel.app/
 
 ### Requisitos cumpridos
 
